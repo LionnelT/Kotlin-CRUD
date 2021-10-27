@@ -17,6 +17,6 @@ interface NotesDao {
 
     @Query("Select * from notesTable ORDER BY ID ASC")
     fun getAllNotes(): LiveData<List<Note>>
-    
+
 
 }
